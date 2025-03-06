@@ -1,0 +1,85 @@
+/* Estilos básicos para a página romântica */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f0f5;
+    color: #d1569b;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centraliza todo o conteúdo do body */
+}
+
+header {
+    background-color: #d1569b;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer {
+    background-color: #d1569b;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+main {
+    text-align: center;
+    margin: 20px;
+}
+
+a {
+    color: #d1569b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button {
+    background-color: #d1569b;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a93f76;
+}
+
+/* Estilo do link como botão */
+.btn {
+    display: inline-block;
+    background-color: #d1569b;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #a93f76;
+}
+
+/* Seção das imagens */
+.fotos {
+    display: flex;
+    justify-content: center; /* Centraliza as imagens na tela */
+    flex-wrap: wrap; /* Permite que as imagens se movam para a linha seguinte se necessário */
+    gap: 20px; /* Espaçamento entre as imagens */
+    margin-top: 20px;
+}
+
+.fotos a {
+    display: block; /* Faz o link se comportar como um bloco */
+    width: 300px; /* Define o tamanho das imagens */
+}
+
+.fotos img {
+    width: 100%; /* As imagens ocuparão a largura total do bloco */
+    border-radius: 10px; /* Bordas arredondadas para as imagens */
+}
